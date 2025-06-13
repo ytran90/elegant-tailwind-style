@@ -66,7 +66,7 @@ const Pricing = () => {
         
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {plans.map((plan, index) => (
-            <Card key={index} className={`relative ${plan.popular ? 'border-primary shadow-lg scale-105' : ''}`}>
+            <Card key={index} className={`relative transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer ${plan.popular ? 'border-primary shadow-lg scale-105' : ''}`}>
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                   <span className="bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-medium">
