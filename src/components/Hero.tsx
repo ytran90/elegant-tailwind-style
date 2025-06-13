@@ -18,7 +18,7 @@ const Hero = () => {
               <Button size="lg" className="bg-white text-purple-700 hover:bg-gray-100 font-semibold">
                 Join now
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-purple-700">
+              <Button size="lg" className="bg-purple-600 text-white border border-purple-500 hover:bg-purple-500">
                 Apply now
               </Button>
             </div>
